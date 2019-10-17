@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Button auto = (Button) findViewById(R.id.auto);
         Button reset = (Button) findViewById(R.id.reset);
         final TextView contador = (TextView) findViewById(R.id.contador);
-
+        contador.setText(Integer.toString(count));
 
         auto.setOnClickListener(new View.OnClickListener() {
 
